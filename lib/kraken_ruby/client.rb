@@ -66,6 +66,10 @@ module Kraken
       post_private 'Balance', opts
     end
 
+    def balance_extended(opts={})
+      post_private 'BalanceEx', opts
+    end
+
     def trade_balance(opts={})
       post_private 'TradeBalance', opts
     end
